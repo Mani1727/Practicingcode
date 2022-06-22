@@ -13,6 +13,7 @@ import java.util.Set;
 public class gettinglinkcount {
     public static void main( String[] args ) throws InterruptedException {
 
+
         WebDriver driver;
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
